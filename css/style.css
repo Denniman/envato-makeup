@@ -6,7 +6,7 @@ body {
 }
 .header-container {
     background-color: #fef9f6;
-    height: 80vh;
+    height: 100vh;
 }
 
 ul li a {
@@ -21,7 +21,38 @@ ul li a {
 .header-col {
     margin-top: 5em;
 }
+button.btn-secondary {
+    background-color: #FBBD93;
+    border: none;
+    padding: 8px 35px;
+}
 
-/* h1 {
-    column-span: 50em;
-} */
+button.btn-secondary:hover {
+    background-color: #FBBD93;
+}
+h1 {
+    color: #55331C;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-img {
+        width: 70%;
+    } 
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h1,p {
+        text-align: center;
+    }
+    .img-col {
+        display: none;
+    }
+
+    button.btn-secondary {
+        margin-left: 2.7em;
+        padding: 15px 0px;
+        width: 226px;
+    } 
+}
