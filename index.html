@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -40,14 +41,19 @@
       </nav>
       <div class="container">
           <div class="row header-row">
-              <div class="col-12 col-md-6 header-col">
+              <div class="col-12 col-md-6 header-col" data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
                   <h1>Hide everything except beauty</h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus commodi 
                 itaque excepturi atque! Accusantium perspiciatis at totam facilis.
                 </p>
                 <button type="button" class="btn btn-secondary">Book me</button>
               </div>
-              <div class="col-md-6 img-col">
+              <div class="col-md-6 img-col" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500">
                   <img src="/assets/Group 201.svg" alt="beautiful lday" class="header-img">
               </div>
           </div>
@@ -56,7 +62,7 @@
 <main class="container-fluid">
     <div class="container">
         <div class="row services-row">
-          <div class="col-12">
+          <div class="col-12" data-aos="flip-down">
             <h3 class="text-center mb-5 services-h3">My makeup services</h3>
             <ul class="d-flex justify-content-center services">
               <li class="icon-lis list"><img src="/assets/ICON 1.png" class="services-icon" alt="icon">
@@ -75,10 +81,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-12">
+          <div class="col-md-6 col-12" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <img src="/assets/Mask Group (1).png" alt="lady" class="first-lady">
           </div>
-          <div class="col-md-6 col-12 beauty-div">
+          <div class="col-md-6 col-12 beauty-div" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"">
             <h2 class="beauty-head">Beauty & Confident</h2>
             <p class="beauty-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, 
               fugit eius harum, at hic numquam quaerat voluptatem dignissimos eos vitae 
@@ -92,22 +102,26 @@
         
         <div class="img-container">
           
-          <div class="box1">
-            <img src="/assets/Mask Group1 (1).png" alt="">
+          <div class="box1" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <img src="/assets/first-lady.png" alt="">
           </div>
-           <div class="box2">
+           <div class="box2" data-aos="flip-down" data-aos-offset="400">
               <img src="/assets/Mask Group (2).png" alt="">
           </div>
-           <div class="box3">
+           <div class="box3" data-aos="flip-down" data-aos-offset="500">
               <img src="/assets/Mask Group (3).png" alt="">
           </div>
-            <div class="box4">
+            <div class="box4" data-aos="fade-left"
+            data-aos-offset="400"
+            data-aos-easing="ease-in-sine">
               <img src="/assets/IydtsUb6uNg.png" alt="">
           </div>
         </div>
         <h2 class="text-center test">Testimonials from my clients</h2>
         <div class="testimonials-div d-flex justify-content-center flex-column">
-          <div class="testimonial-section">
+          <div class="testimonial-section mr-5 ml-5">
             <div class="text-center mt-5"><img src="/assets/testimonials-group.png" alt=""></div>
             <h5 class="text-center">Adam Jiim - La Paris Director</h5>
             <p class="text-center testimonials-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione adipisci 
@@ -172,5 +186,9 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
