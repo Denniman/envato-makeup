@@ -333,7 +333,7 @@ textarea {
 footer {
     background: #FBBD93;
     height: 70vh;
-    margin-left: -2em !important;
+    /* margin-left: -2em !important; */
 }
 
 hr {
