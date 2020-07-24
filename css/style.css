@@ -292,6 +292,11 @@ ul .media-icon-lis {
     width: 100% !important;
 }
 
+.testimonial-section {
+    padding: 0em 1em;
+    margin-bottom: 0;
+}
+
 .testimonials-p{
     font-size: 1rem;
 }
