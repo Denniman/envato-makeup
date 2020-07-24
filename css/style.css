@@ -202,13 +202,11 @@ ul .media-icon-lis {
 
     .icon-lis {
         width: 50%;
-        margin-right: -40px;
-        /* border: 2px solid red; */
+        margin-right: -5px;
     }
 
     .first-lady {
         width: 100%;
-        margin-left: 2em;
     }
 
     .icon-lis p{
@@ -220,7 +218,7 @@ ul .media-icon-lis {
     }
 
     .icon-lis {
-        margin-left: 40px;
+        margin-left: 5px;
     }
 
     h2.beauty-head {
@@ -330,7 +328,7 @@ ul .media-icon-lis {
 }
 
 .book, .test{
-    width: 100%;
+    width: 80%;
     font-size: 1.2rem;
     font-weight: bold;
 }
