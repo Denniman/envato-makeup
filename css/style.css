@@ -329,18 +329,8 @@ textarea {
     margin-left: 0rem !important;
 }
 
-
-footer {
-    background: #FBBD93;
-    height: 70vh;
-    /* margin-left: -2em !important; */
-}
-
 hr {
-    width: 80%;
-    margin-right: 0em;
-    text-align: center;
-    justify-content: center;
+    width: 100%;
 }
 
 ul .media-icon-lis {
