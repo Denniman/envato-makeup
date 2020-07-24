@@ -201,8 +201,9 @@ ul .media-icon-lis {
     }
 
     .icon-lis {
-        width: 80%;
-        margin-right: -5em;
+        width: 50%;
+        margin-right: -40px;
+        /* border: 2px solid red; */
     }
 
     .first-lady {
@@ -212,20 +213,21 @@ ul .media-icon-lis {
 
     .icon-lis p{
         font-size: .6rem;
-        margin-left: -10em;
+        margin-left: -6em;
     }
     .services-icon {
         width: 20%;
     }
 
     .icon-lis {
-        margin-left: -3em;
+        margin-left: 40px;
     }
 
     h2.beauty-head {
         font-size: 1.2rem;
         font-weight: bold;
         width: 100%;
+        text-align: center;
     }
     .read{
         text-align: center;
@@ -259,7 +261,7 @@ ul .media-icon-lis {
 
     .box2 img {
         width: 60%;
-        margin-left: 2em;
+        /* margin-left: 2em; */
     }
     
     .box3 {
@@ -269,7 +271,7 @@ ul .media-icon-lis {
     .box3 img{
         width: 60%;
         float: left;
-        margin-left: 3em;
+        margin-left: 5em;
         margin-bottom: 2em;
     }
     
@@ -285,7 +287,7 @@ ul .media-icon-lis {
 
   .testimonials-div {
     margin-top: 5em;
-    width: 100%;
+    width: 100% !important;
 }
 
 .testimonials-p{
@@ -328,7 +330,7 @@ ul .media-icon-lis {
 }
 
 .book, .test{
-    width: 70%;
+    width: 100%;
     font-size: 1.2rem;
     font-weight: bold;
 }
