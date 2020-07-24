@@ -166,7 +166,7 @@ ul .media-icon-lis {
     .header-container {
         height: 70vh; 
         margin-left: 0em !important;
-        width: 71% !important;
+        width: 100% !important;
     }
     .logo-img {
         width: 50%;
@@ -178,7 +178,7 @@ ul .media-icon-lis {
 
     h1,p {
         text-align: center;
-        width: 90% !important;
+        width: 100% !important;
     }
     .header-col p {
         font-size: 1rem;
@@ -189,14 +189,12 @@ ul .media-icon-lis {
     }
 
     button.btn-secondary {
-        margin-left: 1em;
         padding: 8px 0px;
         width: 190px;
     } 
     .services-h3 {
         font-size: 1.2rem;
         width: 50%;
-        margin-left: 2em;
     }
 
     .services {
@@ -230,17 +228,14 @@ ul .media-icon-lis {
     h2.beauty-head {
         width: 70%;
         font-size: 1.3rem;
-        margin-left: 2em;
         font-weight: bold;
     }
     .read{
         text-align: center;
-        margin-left: -1em;
     }
     .beauty-p {
         width: 60% !important;
         text-align: center;
-        margin-left: 2em; 
     }
 
     h2.gallery-h2 {
@@ -257,29 +252,27 @@ ul .media-icon-lis {
 
     .box1 img{
           height: 80%;
-          width: 60%;
-          margin-left: 2em;
+          width: 100%;
           margin-bottom: -13em;
     }
     
     
     .box2 {
-        width: 55%;
+        width: 60%;
         margin-right: -5em;
     }
 
     .box2 img {
-        width: 50%;
+        width: 60%;
     }
     
     .box3 {
-        width: 50%;
+        width: 60%;
     }
 
     .box3 img{
-        width: 55%;
+        width: 60%;
         float: left;
-        margin-left: -0.2em;
     }
     
     .box4 {
@@ -288,32 +281,26 @@ ul .media-icon-lis {
 
     .box4 img{
         height: 80%;
-        width: 76%;
-        margin-left: -0.4em;
+        width: 100%;
         margin-bottom: -10em;
   }
 
   .testimonials-div {
     margin-top: 5em;
-    width: 74%;
-    margin-left: -1.8em;
+    width: 100%;
 }
 
 .testimonials-p{
     font-size: 1rem;
 }
 
-input{
-    width: 60% !important;
-}
-
 textarea {
-    width: 60%;
+    width: 100%;
     height: 20vh;
 }
 [type="email"], [type="text"] {
     padding: 10px 20px;
-    width: 60%;
+    width: 100%;
 }
 
 [type="text"] {
@@ -322,11 +309,10 @@ textarea {
 
 .last-btn {
     margin-top: -47em;
-    width: 60% !important;
+    width: 100% !important;
     color: #55331C !important;
     padding: 10px 10px !important;
     margin-bottom: -50em !important;
-    margin-left: 0rem !important;
 }
 
 hr {
