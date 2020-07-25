@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 500vh;
+    height: 150vh;
 }
 .header-container {
     background-color: #fef9f6;
@@ -15,6 +15,10 @@ body {
 
 ul li a {
     color: #5D5256;
+}
+
+img {
+    max-width: 100%;
 }
 
 .header-img {
@@ -60,11 +64,6 @@ ul li {
 .first-lady {
     width: 70%;
     margin-left: 9em;
-}
-
-.beauty-div {
-    margin-top: 3em;
-    margin-right: -5em;
 }
 
 h2.beauty-head {
@@ -176,14 +175,15 @@ ul .media-icon-lis {
 
 @media only screen and (max-width: 576px) {
     body {
-        height: 200vh;
+        height: 100vh;
     }
     .header-container {
-        height: 70vh; 
-    }
+        height: 50vh; 
+    } 
+
     .logo-img {
         width: 50%;
-    } 
+    }  
 
     h1 {
         font-size: 1.5rem !important;
@@ -196,7 +196,7 @@ ul .media-icon-lis {
     .header-col p {
         font-size: 1rem;
     }
-    .img-col {
+    .img-col, .header-img {
         display: none;
     }
 
@@ -211,31 +211,34 @@ ul .media-icon-lis {
 
     .services {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
     }
 
     .icon-lis {
         width: 50%;
-        margin-right: -6px;
+        margin-right: -40px;
     }
 
     .first-lady {
         width: 100%;
-        margin-left: 1em;
+        margin-left: -2%;
     }
 
     .icon-lis p{
+        width: 5%;
         font-size: .6rem;
-        margin-left: -6em;
+        margin-left: -4em;
     }
+
     .services-icon {
+        margin-left: 20px;
         width: 20%;
     }
 
     .icon-lis {
         margin-left: 6px;
     }
+
 
     h2.beauty-head {
         font-size: 1.2rem;
@@ -255,18 +258,28 @@ ul .media-icon-lis {
         font-weight: bold; 
     }
 
+    img {
+        max-width: 100%;
+    }
     .img-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .box1 img{
-          height: 80%;
-          width: 100%;
-          margin-bottom: -20em;
+    .img-container {
+        width: 100%;
     }
-    
+
+    .img-container img {
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .box1 img{
+          height: 100%;
+          margin-bottom: -15em;
+    }
     
     .box2 {
         width: 60%;
@@ -274,7 +287,7 @@ ul .media-icon-lis {
     }
 
     .box2 img {
-        width: 60%;    
+        width: 70%;    
     }
     
     .box3 {
@@ -282,10 +295,9 @@ ul .media-icon-lis {
     }
 
     .box3 img{
-        width: 60%;
-        float: left;
-        margin-left: 5em;
-        margin-bottom: 2em;
+        width: 70%;
+        margin-left: 3.9em;
+        /* margin-bottom: 2em; */
     }
     
     .box4 {
@@ -329,12 +341,24 @@ textarea {
     margin-bottom: -50em !important;
 }
 
+footer {
+    height: 80vh;
+}
 hr {
-    width: 100%;
+    width: 80%;
+}
+
+.footer-ul {
+    margin-top: -10em;
+}
+
+ul .footer-li {
+    margin-top: 1em;
+    margin-right: 5em;
 }
 
 ul .media-icon-lis {
-    margin: 0px 10px;
+    margin: 0px 20px;
     width: 10%;
 }
 .footer-ul {
