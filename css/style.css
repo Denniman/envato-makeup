@@ -126,9 +126,13 @@ h3.gallery-h3 {
     margin-bottom: 2em;
 }
 
+.slider1, .slider2, .slider3 {
+    margin-right: 10em;
+    margin-left: 10em;
+}
 
 .testimonial-logo {
-    margin-left: 27em;
+    margin-left: 15em;
 }
 
 textarea {
@@ -244,13 +248,13 @@ ul .media-icon-lis {
         font-size: 1.2rem;
         font-weight: bold;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .read{
-        text-align: center;
+        text-align: left;
     }
     .beauty-p {
-        text-align: center;
+        text-align: left;
     }
 
     h2.gallery-h2 {
@@ -281,9 +285,10 @@ ul .media-icon-lis {
           margin-bottom: -15em;
     }
     
-    .box2 {
+    .box2{
         width: 60%;
         margin-right: -5em;
+        margin-top: 1em;
     }
 
     .box2 img {
@@ -291,6 +296,7 @@ ul .media-icon-lis {
     }
     
     .box3 {
+        margin-top: 1em;
         width: 60%;
     }
 
@@ -314,6 +320,10 @@ ul .media-icon-lis {
 .testimonial-section {
     padding: 0;
     margin-bottom: 0;
+}
+
+.slider1, .slider2, .slider3 {
+    margin: 0;
 }
 
 .testimonials-p{
