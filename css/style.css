@@ -217,11 +217,11 @@ ul .media-icon-lis {
 
     .icon-lis {
         width: 50%;
-        margin-right: -6px;
+        margin-right: -4px;
     }
 
     .first-lady {
-        width: 100%;
+        width: 80%;
         margin-left: 1em;
     }
 
@@ -234,7 +234,7 @@ ul .media-icon-lis {
     }
 
     .icon-lis {
-        margin-left: 6px;
+        margin-left: 4px;
     }
 
     h2.beauty-head {
