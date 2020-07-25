@@ -6,7 +6,6 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
     });
   });
