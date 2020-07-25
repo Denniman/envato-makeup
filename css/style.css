@@ -5,11 +5,13 @@ body {
     height: 500vh;
 }
 .header-container {
+    border: 2px solid red;
     background-color: #fef9f6;
     height: 69vh;
 }
 
 .navbar {
+    border: 2px solid red;
     background-color: #fef9f6;
 }
 
@@ -46,6 +48,7 @@ ul li {
 }
 
 .icon-lis, .footer-li {
+    border: 2px solid red;
     margin: 0px 50px;
 }
 
@@ -58,8 +61,9 @@ ul li {
 }
 
 .first-lady {
+    border: 2px solid red;
     width: 70%;
-    margin-left: 8em;
+    /* margin-left: 8em; */
 }
 
 .beauty-div {
@@ -72,6 +76,7 @@ h2.beauty-head {
 }
 
 .beauty-p {
+    border: 2px solid red;
     width: 80%;
 }
 
@@ -113,15 +118,18 @@ h3.gallery-h3 {
 }
 
 .box4 {
+    border: 2px solid red;
     grid-column: 3/4;
     grid-row: 1/3;
 }
 
 .testimonials-p{
+    border: 2px solid red;
     width: 100%;
 }
 
 .testimonial-section {
+    border: 2px solid red;
     background-color: #FEF9F6;
     padding: 0em 10em;
     margin-bottom: 2em;
@@ -129,6 +137,7 @@ h3.gallery-h3 {
 
 
 .testimonial-logo {
+    border: 2px solid red;
     margin-left: 21em;
 }
 
@@ -219,10 +228,6 @@ ul .media-icon-lis {
         width: 50%;
         margin-right: -4px;
     }
-
-    .services-h3, .icon-lis, .icon-lis p, .first-lady {
-        display: none;
-    }  
 
     .first-lady {
         width: 80%;
