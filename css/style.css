@@ -205,7 +205,7 @@ ul .media-icon-lis {
     }
 
     button.btn-secondary {
-        padding: 8px 0px;
+        padding: 20px 30px;
         width: 100%;
     } 
     .services-h3 {
@@ -219,7 +219,7 @@ ul .media-icon-lis {
     }
 
     .icon-lis {
-        width: 50%;
+        width: 60%;
         margin-right: -40px;
     }
 
@@ -230,13 +230,13 @@ ul .media-icon-lis {
 
     .icon-lis p{
         width: 5%;
-        font-size: .6rem;
-        margin-left: -4em;
+        font-size: .7rem;
+        margin-left: -3.5em;
     }
 
     .services-icon {
         margin-left: 20px;
-        width: 20%;
+        width: 30%;
     }
 
     .icon-lis {
