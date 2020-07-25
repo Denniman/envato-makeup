@@ -220,6 +220,10 @@ ul .media-icon-lis {
         margin-right: -4px;
     }
 
+    .services-h3, .icon-lis, .icon-lis p, .first-lady {
+        display: none;
+    }  
+
     .first-lady {
         width: 80%;
         margin-left: 1em;
