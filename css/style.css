@@ -219,8 +219,8 @@ ul .media-icon-lis {
     }
 
     .icon-lis {
-        width: 60%;
-        margin-right: -40px;
+        width: 50%;
+        margin-right: -45px;
     }
 
     .first-lady {
@@ -230,13 +230,13 @@ ul .media-icon-lis {
 
     .icon-lis p{
         width: 5%;
-        font-size: .7rem;
-        margin-left: -3.5em;
+        font-size: .6rem;
+        margin-left: -4em;
     }
 
     .services-icon {
         margin-left: 20px;
-        width: 30%;
+        width: 20%;
     }
 
     .icon-lis {
