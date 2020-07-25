@@ -117,18 +117,19 @@ h3.gallery-h3 {
     grid-row: 1/3;
 }
 
-.testimonials-div {
-    margin-top: 5em;
-    background-color: #FEF9F6;
-}
-
 .testimonials-p{
     width: 100%;
 }
 
 .testimonial-section {
+    background-color: #FEF9F6;
     padding: 0em 10em;
     margin-bottom: 2em;
+}
+
+
+.testimonial-logo {
+    margin-left: 21em;
 }
 
 textarea {
@@ -297,11 +298,7 @@ ul .media-icon-lis {
         margin-bottom: -10em;
   }
 
-  .testimonials-div {
-    margin-top: 5em;
-    width: 100% !important;
-}
-
+ 
 .testimonial-section {
     padding: 0;
     margin-bottom: 0;
@@ -351,4 +348,9 @@ ul .media-icon-lis {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.testimonial-logo {
+    margin-left: -13em;
+}
+
 }
