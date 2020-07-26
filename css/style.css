@@ -47,6 +47,10 @@ button.btn-secondary:hover {
     background-color: #FBBD93;
 }
 
+.nav-link:hover {
+    background-color: #FBBD93;
+}
+
 h1, h2, h3 {
     color: #55331C;
 }
