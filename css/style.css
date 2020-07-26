@@ -63,7 +63,7 @@ ul li {
 }
 
 .icon-lis, .footer-li {
-    margin: 0px 50px;
+    margin: 0px 40px;
 }
 
 .icon-lis p{
@@ -191,7 +191,7 @@ footer {
 
 hr {
     border: 0.5px solid #55331C !important;
-    width: 70%;
+    width: 50%;
 }
 
 ul .media-icon-lis {
@@ -199,12 +199,19 @@ ul .media-icon-lis {
 }
 
 .footer-logo {
-    width: 3%;
+    width: 4%;
 }
 
 .footer-media {
     width: 40%;
 }
+
+ul .footer-li {
+    /* margin-top: 1em; */
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 
 @media only screen and (max-width: 576px) {
     body {
@@ -269,9 +276,9 @@ ul .media-icon-lis {
         width: 30%;
     }
 
-    .icon-lis {
+    /* .icon-lis {
         margin-left: 6px;
-    }
+    } */
 
 
     h2.beauty-head {
@@ -333,7 +340,6 @@ ul .media-icon-lis {
     .box3 img{
         width: 70%;
         margin-left: 3.9em;
-        /* margin-bottom: 2em; */
     }
     
     .box4 {
@@ -359,7 +365,6 @@ ul .media-icon-lis {
     position: absolute;
     top: 0;
     left: 0;
-    /* margin-left: 2.5em; */
 }
 
 .slider1, .slider2, .slider3 {
@@ -374,14 +379,6 @@ textarea {
     width: 100%;
     height: 20vh;
 }
-/* [type="email"], [type="text"] {
-    padding: 10px 20px;
-    width: 100%;
-} */
-
-/* [type="text"] {
-    margin-top: .5em;
-} */
 
 .last-btn {
     margin-top: -47em;
@@ -400,10 +397,10 @@ hr {
 
 
 
-ul .footer-li {
+/* ul .footer-li {
     margin-top: 1em;
     margin-right: 5em;
-}
+} */
 
 ul .media-icon-lis {
     margin: 0px 20px;
